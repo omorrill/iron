@@ -6,13 +6,30 @@ core = 7.x
 ;; Regions
 ;;;;;;;;;;;;;;;;;;;;;
 
-regions[navigation]     = 'Navigation'
-regions[header]         = 'Top Bar'
-regions[highlighted]    = 'Highlighted'
-regions[help]           = 'Help'
-regions[content]        = 'Content'
-regions[sidebar_first]  = 'Primary'
-regions[sidebar_second] = 'Secondary'
-regions[footer]         = 'Footer'
-regions[page_top]       = 'Page top'
-regions[page_bottom]    = 'Page bottom'
+regions[navigation]       = 'Navigation'
+regions[header]           = 'Top Bar'
+regions[search]           = 'Search'
+regions[highlighted]      = 'Highlighted'
+regions[help]             = 'Help'
+regions[content]          = 'Content'
+regions[sidebar_first]    = 'Primary'
+regions[sidebar_second]   = 'Secondary'
+regions[footer_left]      = 'Footer Left'
+regions[footer_mid_left]  = 'Footer Mid-Left'
+regions[footer_mid_right] = 'Footer Mid-Right'
+regions[footer_right]     = 'Footer Right'
+regions[footer]           = 'Footer Bottom'
+regions[page_top]         = 'Page top'
+regions[page_bottom]      = 'Page bottom'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = stylesheets/ironboot.css
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Javascripts
+;;;;;;;;;;;;;;;;;;;;;
+
+scripts[] = js/bootstrap.min.js
