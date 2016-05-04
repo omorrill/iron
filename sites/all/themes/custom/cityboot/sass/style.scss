@@ -1,0 +1,38 @@
+@import '_bootstrap.scss';
+@import '_mixins.scss';
+@import '_variables.scss';
+
+.spacer {
+  margin-top: 20px;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.page-header {
+  margin-top: -10px;
+}
+
+.hero-image {
+  background: url('https://coloradosprings.gov/sites/default/files/department_image/pikes.peak_.original.png') center center no-repeat;
+  background-size: cover;
+  height: 640px;
+  width: 100%;
+}
+
+.navbar-default .navbar-nav > li > a {
+  &:hover {
+    color: white;
+    background-color: orange;
+    transition: 0.5s ease;
+  }
+}
+
+#block-search-form {
+  @include search_form;
+}
+
+#edit-search-block-form--2 {
+  width: 500px;
+}
